@@ -2,4 +2,4 @@
 
 This CV is inspired by Michael Pollind's Awsome CV
 
-![Alt text](cv_BC.pdf?raw=true "my CV")
+![Press to see my CV](cv_BC.pdf?raw=true "my CV")
