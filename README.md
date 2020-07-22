@@ -1,4 +1,4 @@
-# My CV coded using LaTeX 
+# My CV is created using LaTeX 
 
 This CV is inspired by Michael Pollind's Awsome CV
 ___________________________________________________________________________________________________
