@@ -1,0 +1,90 @@
+\documentclass{cv_alternance}
+\setname{Constantin}{Bogdanas}
+\setaddress{Strasbourg/France}
+\setmobile{07 58 62 60 52}
+\setmail{bogdanas.constantin1@gmail.com}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/constantin-bogdanas-3581221b3/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/ticuss/L2--Universite-de-Strasbourg} %you can play with color of the template (red is also nice..)
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Presentation}{%
+Ambitieux et travailleur, j’ai une énorme passion pour l’informatique et les nouvelles technologies. Je suis déterminé d’obtenir une spécialisation dans le domaine du développement des logiciels dans le cadre de l’école CESI. A cette fin, je suis à la recherche d’une expérience en alternance à partir de septembre 2020 pour une durée d’un an, afin de déployer mes connaissances et apporter de la valeur-ajoutée à l’entreprise. %replace this part with actual text
+}
+%
+%Education
+\section{Éducation} 
+    \datedexperience{Université de Strasbourg}{2017-2020} 
+    \explanation{ Licence 2 informatique, UFR de mathématique et d'informatique de Strasbourg} 
+    \datedexperience{Université de Strasbourg}{2015-2017} 
+    \explanation{Licence chimie, Faculté de chimie de Strasbourg} 
+   \datedexperience{Lycée francophone « Gheorghe Asachi »}{2003-2015} 
+   \explanation { Baccalauréat scientifique au lycée francophone « Gheorghe Asachi » de
+Chisinau, Moldavie}
+%
+% Experience
+\section{Expérience}
+    %
+    \datedexperience{Alsace-navette}{juin-aout 2019 / Strasbourg, France} 
+    \explanation{Stage Full stack web developer} 
+    %
+    \datedexperience{Appen}{Job étudiant / En ligne} 
+    \explanation{Search engine evaluator}
+    %
+    \datedexperience{Au Gutenberg}{juin-aout 2018 / Strasbourg, France} 
+    \explanation{Job étudiant, serveur}
+    %
+% Skills
+\section{Compétences}
+    %
+    \newcommand{\skillone}{\createskill{Langages de programmation}{\textbf{\emph{Expérimenté:}} \ \  C \cpshalf Javascript \ \  \textbf{\emph{Familier:}} \ \  Java \cpshalf Ocaml \cpshalf
+    PHP  \cpshalf CSS \cpshalf HTML5 \cpshalf MySQL  \cpshalf Shell }}
+    %
+    %
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{ Symfony \cpshalf ReactJs \cpshalf Node.js \cpshalf Arduino }}
+    %
+    %
+    \newcommand{\skillfour}{\createskill{Logiciels}{  Microsoft office  \cpshalf  Adobe Photoshop \cpshalf Eclipse \cpshalf Visual Studio Code  \cpshalf Wireshark  }}
+     %
+     %
+    \newcommand{\skillfive}{\createskill{Langues}{\textbf{\emph{Native:}} \ \  Roumain et Russe \ \ \textbf{\emph{Fluent:}} \ \ Anglais et Francais \ \ \textbf{\emph{Beginner:}} \ \  Espagnol }}
+    %
+    \createskills{\skillone, \skillthree, \skillfour, \skillfive}
+%
+% Experience
+\section{Hobbies}
+    \newcommand{\extraone}{%
+    {\textbf{\emph{Sport:}} : 2015-2018 : tennis au SUAPS ;
+   \newline 2018-présent : tennis club de Schiltigheim
+   \newline2005-présent : tennis de table, natation \\}
+    }
+    %
+    \newcommand{\extrafour}{%
+    {\textbf{\emph{Musique:}} : 2010-présent : Guitare \\}
+    }
+    
+    
+    \newcommand{\extratwo}{%
+    \\ \textbf{\emph{Echecs\\}}
+    }
+    %
+    \newcommand{\extrathree}{%
+    \textbf{\emph{Photographie}}
+    }
+    %
+    \newcommand{\listofextras}{\extraone, \extrafour, \extratwo, \extrathree }
+    %
+    \createbullets{\listofextras}
+%
+%Footnote
+\createfootnote
+\end{document}
